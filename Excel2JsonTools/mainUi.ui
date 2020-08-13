@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>264</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Excel Tools</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>271</width>
+     <height>68</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>选取文件</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>保存路径</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>10</y>
+     <width>281</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>选择文件生成公式，不需要选保存路径；      生成的公式可以复制到Excel直接使用。</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>213</y>
+     <width>60</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>216</y>
+     <width>75</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>E2</string>
+   </property>
+   <property name="placeholderText">
+    <string>匹配单元格</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>212</y>
+     <width>75</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>pid</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>modelId</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>poiCode</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>213</y>
+     <width>80</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生成公式</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>191</x>
+     <y>113</y>
+     <width>90</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>json2Exc</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>112</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>通用消防</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>通用上报</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>通用下发</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>标准消防</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>标准空调</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>标准照明</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>标准场景</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>113</y>
+     <width>90</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>exc2Json</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

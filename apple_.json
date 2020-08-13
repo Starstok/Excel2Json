@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "device_id": 2,
+            "card_id": 1,
+            "point_id": 16150264,
+            "alias": "ads_fire_control",
+            "name": "烟感报警器",
+            "pid": 1701000170,
+            "modelId": 2061,
+            "poiCode": "w0301006",
+            "appType": "fire_protecting",
+            "datapoint_report": 20001305,
+            "address": "北T1栋1F弱电间烟感1",
+            "sn": "TEST_XF_00000001"
+        },
+        {
+            "device_id": 2,
+            "card_id": 1,
+            "point_id": 13239331,
+            "alias": "ads_fire_control",
+            "name": "烟感报警器",
+            "pid": 1701000171,
+            "modelId": 2061,
+            "poiCode": "w0301006",
+            "appType": "fire_protecting",
+            "datapoint_report": 20001305,
+            "address": "北T1栋1F强电间烟感2",
+            "sn": "TEST_XF_00000002"
+        }
+    ]
+}
